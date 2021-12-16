@@ -1,0 +1,195 @@
+:root {
+  --background-primary: rgba(230, 230, 230);
+  --highlight-primary: #5585b5;
+}
+
+html, body {
+  height:100%;
+  width: 100%;
+  background-color: var(--background-primary);
+}
+
+.title-container{
+  height: 40vh;
+}
+
+.title-hello {
+  font-family: "Times New Roman", serif;
+  font-size: 10rm;
+  font-weight: 700;
+}
+
+.title-name {
+  colour: var(--background-primary);
+  background-color: var(--highlight-primary);
+
+  font-family: "Times New Roman", serif;
+  font-size: 4rem;
+  font-weight: 800;
+
+  position: relative;
+  top: -2.5rem;
+}
+
+.title-tag {
+  font-family: "Times New Roman", serif;
+  font-size: 2rem;
+
+  position: relative;
+  top: -2rem;
+}
+
+.about-me-container {
+  width: 80vw;
+  height:40vh;
+
+  margin-left: 10vw;
+
+  background-color: var(--highlight-primary);
+}
+
+.about-me-image {
+  width: 20vw;
+  height: 19.5vw;
+
+  border-radius: 100%;
+
+  box-shadow: 10px 5px 10px black;
+}
+
+.about-me-text {
+  colour: var(--background-primary);
+
+  font-size: 2rem;
+  font-family: "Times New Roman", serif
+
+  text-align: left;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+}
+
+.contact-me-container {
+  margin-top: 10vh;
+
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Times New Roman", serif;
+}
+
+.contact-me-icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.achievements-container {
+  width: 80vw;
+  marign-left: 10vw;
+
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.achievements {
+  font-size: 1.2rem;
+  font-family: "New Times Roman", serif;
+}
+
+.achievements-title {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Times New Roman", serif;
+
+  marign-top: 12vh;
+  margin-left: 10vw;
+}
+
+.achievements-image {
+  width: 20vw;
+  height: 18vw;
+
+  border-radius: 100%;
+
+  box-shadow: 10px 5px 10px black;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+
+  .about-me-image-container {
+    padding-bottom: 1.5rem;
+  }
+
+  .achievements-container {
+    padding-top: 1rem;
+  }
+
+  .achievements-image-container {
+    margin-top: 1rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    html {
+        font-size: 12px;
+    }
+
+    .about-me {
+        padding-left: 5%;
+        padding-right: 5%;
+
+        text-align: left;
+    }
+
+    .achievements {
+        padding-left: 10%;
+    }
+
+    .achievements-title {
+        text-align: left;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+position: relative;
+top: -2rom;
+}
+
+.about-me-container {
+  width: 80vw;
+  height: 40vh;
+
+  margin-left: 10vw;
+
+  background-colour: #2f9886;
+}
